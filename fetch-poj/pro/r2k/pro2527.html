@@ -1,0 +1,24 @@
+<h2 align="center">Polynomial Remains</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 1282</td><td width="10px"></td><td><b>Accepted:</b> 729</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><img src=images/2527_1.jpg align=right>Given the polynomial<br><CENTER>a(x) = a<SUB>n</SUB> x<SUP>n</SUP> + ... + a<SUB>1</SUB> x + a<SUB>0</SUB>, </CENTER><br>compute the remainder r(x) when a(x) is divided by x<SUP>k</SUP>+1.</div><h3>Input</h3><div class="ptx" lang="en-US">The input consists of a number of cases. The first line of each case specifies the two integers n and k (0 <= n, k <= 10000). The next n+1 integers give the coefficients of a(x), starting from a0 and ending with an. The input is terminated if n = k = -1. </div><h3>Output</h3><div class="ptx" lang="en-US">For each case, output the coefficients of the remainder on one line, starting from the constant coefficient r0. If the remainder is 0, print only the constant coefficient. Otherwise, print only the first d+1 coefficients for a remainder of degree d. Separate the coefficients by a single space. <br><br>You may assume that the coefficients of the remainder can be represented by 32-bit integers.<br></div><h3>Sample Input</h3><pre class="sio">5 2
+6 3 3 2 0 1
+5 2
+0 0 3 2 0 1
+4 1
+1 4 1 1 1
+6 3
+2 3 -3 4 1 0 1
+1 0
+5 1
+0 0
+7
+3 5
+1 2 3 4
+-1 -1
+</pre><h3>Sample Output</h3><pre class="sio">3 2
+-3 -1
+-2
+-1 2 -3
+0
+0
+1 2 3 4
+</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Alberta Collegiate Programming Contest 2003.10.18</a></div></td></tr></table>

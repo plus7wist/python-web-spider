@@ -1,0 +1,16 @@
+<h2 align="center">Copying DNA</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 830</td><td width="10px"></td><td><b>Accepted:</b> 302</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><div><p>Evolution is a seemingly random process which works in a way which resembles certain approaches we use to get approximate solutions to hard combinatorial problems. You are now to do something completely different.</p><p>Given a DNA string <i>S</i> from the alphabet {A,C,G,T}, find the minimal number of copy operations needed to create another string <i>T</i>. You may reverse the strings you copy, and copy both from <i>S</i> and the pieces of your partial <i>T</i>. You may put these pieces together at any time. You may only copy contiguous parts of your partial <i>T</i>, and all copied strings must be used in your final <i>T</i>. Example: From <i>S</i> = “ACTG” create <i>T</i> = “GTACTATTATA”</p><ol><li>Get GT......... by copying and reversing &quot;TG&quot; from <i>S</i>.</li><li>Get GTAC....... by copying &quot;AC&quot; from <i>S</i>.</li><li>Get GTAC...TA.. by copying &quot;TA&quot; from the partial <i>T</i>.</li><li>Get GTAC...TAAT by copying and reversing &quot;TA&quot; from the partial <i>T</i>.</li><li>Get GTACAATTAAT by copying &quot;AAT&quot; from the partial <i>T</i>.</li></ol></div></div><h3>Input</h3><div class="ptx" lang="en-US"><p>The first line of input gives a single integer, 1 ≤ <i>t</i> ≤ 100, the number of test cases. Then follow, for each test case, a line with the string <i>S</i> of length 1 ≤ <i>m</i> ≤ 18, and a line with the string <i>T</i> of length 1 ≤ <i>n</i> ≤ 18.</p></div><h3>Output</h3><div class="ptx" lang="en-US"><p>Output for each test case the number of copy operations needed to create <i>T</i> from <i>S</i>, or &quot;impossible&quot; if it cannot be done.</p></div><h3>Sample Input</h3><pre class="sio">5
+ACGT
+GTAC
+A
+C
+ACGT
+TGCA
+ACGT
+TCGATCGA
+A
+AAAAAAAAAAAAAAAAAA</pre><h3>Sample Output</h3><pre class="sio">2
+impossible
+1
+4
+6</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Nordic 2007</a></div></td></tr></table>

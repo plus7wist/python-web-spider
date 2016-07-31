@@ -1,0 +1,18 @@
+<h2 align="center">Wiping Words</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 446</td><td width="10px"></td><td><b>Accepted:</b> 176</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">In this problem, you are given a paragraph of text in terms of a sequence of lines. Each lines contains a number of words which are sequences of lowercase and uppercase letters and are separated by either blank characters or asterisks. A word is wiped out if for each character in that word, there is no letter or asterisk character in the same position in the next line, or the word appears in the last line of the input. If such a case happens, all occurrences of that word in the text is converted to blanks independent of the corresponding characters in the next line. Note that the asterisks and black characters never disappear. Also, note that the words are considered case-sensitive. Write a program to read a sequence of lines described above and wipe out as many word as it can iteratively.<br></div><h3>Input</h3><div class="ptx" lang="en-US">The first line of the input contains a single integer t (1 &le; t &le; 20) which is the number of test cases in the input. Each test case contains a sequence of lines containing characters A..Z, a..z, blank and asterisk (*). After each test case, there is a line containing single hash character (#) which is not a part of the lines you must consider in your algorithm. </div><h3>Output</h3><div class="ptx" lang="en-US">For each test case, write the input lines in the output with the wiped out words converted to blanks. Separate outputs for consecutive test cases with lines containing a single hash character.</div><h3>Sample Input</h3><pre class="sio">2
+ACM is
+**
+#
+in this world
+you are in*side
+the world
+*
+#
+</pre><h3>Sample Output</h3><pre class="sio">ACM   
+**
+#
+             
+you       *    
+the      
+*
+#</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Tehran 2004</a></div></td></tr></table>

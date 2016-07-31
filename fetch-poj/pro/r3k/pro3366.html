@@ -1,0 +1,18 @@
+<h2 align="center">Deli Deli</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 4107</td><td width="10px"></td><td><b>Accepted:</b> 2293</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><p>Mrs. Deli is running the delicatessen store "Deli Deli". Last year Mrs. Deli has decided to expand her business and build up an online store. She has hired a programmer who has implemented the online store.</p><p>Recently some of her new online customers complained about the electronic bills. The programmer had forgotten to use the plural form in case that an item is purchased multiple times. Unfortunaly the programmer of Mrs. Deli is on holiday and now it is your task to implement this feature for Mrs. Deli. Here is a description how to make the plural form:</p><ol><li>If the word is in the list of irregular words replace it with the given plural.</li><li>Else if the word ends in a consonant followed by "y", replace "y" with "ies".</li><li>Else if the word ends in "o", "s", "ch", "sh" or "x", append "es" to the word.</li><li>Else append "s" to the word.</li></ol></div><h3>Input</h3><div class="ptx" lang="en-US"><p>The first line of the input file consists of two integers <b>L</b> and <b>N</b> (<i>0 &le; L &le; 20</i>, <i>1 &le; N &le; 100</i>). The following <b>L</b> lines contain the description of the irregular words and their plural form. Each line consists of two words separated by a space character, where the first word is the singular, the second word the plural form of some irregular word. After the list of irregular words, the following <b>N</b> lines contain one word each, which you have to make plural. You may assume that each word consists of at most 20 lowercase letters from the English alphabet ('a' to 'z').</p></div><h3>Output</h3><div class="ptx" lang="en-US"><p>Print <b>N</b> lines of output, where the <b>i<sup>th</sup></b> line is the plural form of the <b>i<sup>th</sup></b> input word.</p></div><h3>Sample Input</h3><pre class="sio">3 7
+rice rice
+spaghetti spaghetti
+octopus octopi
+rice
+lobster
+spaghetti
+strawberry
+octopus
+peach
+turkey</pre><h3>Sample Output</h3><pre class="sio">rice
+lobsters
+spaghetti
+strawberries
+octopi
+peaches
+turkeys</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Ulm Local 2007</a></div></td></tr></table>

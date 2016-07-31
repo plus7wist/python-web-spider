@@ -1,0 +1,13 @@
+<h2 align="center">Sequence</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 5000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 6445</td><td width="10px"></td><td><b>Accepted:</b> 1411</td></tr><tr><td colspan="3" align="center" style="color:#0ead00"><b>Case Time Limit:</b> 2000MS</td></tr></table></div><h3>Description</h3><div class="ptx" lang="en-US"><div><p>Given a sequence, {<i>A</i><sub>1</sub>, <i>A</i><sub>2</sub>, ..., <i>A<sub>n</sub></i>} which is guaranteed <i>A</i><sub>1 </sub>> <i>A</i><sub>2</sub>, ..., <i>A<sub>n</sub></i>,&nbsp; you are to cut it into three sub-sequences and reverse them separately to form a new one which is the smallest possible sequence in alphabet order. </p><p>The alphabet order is defined as follows: for two sequence {<i>A</i><sub>1</sub>, <i>A</i><sub>2</sub>, ..., <i>A<sub>n</sub></i>} and {<i>B</i><sub>1</sub>, <i>B</i><sub>2</sub>, ..., <i>B<sub>n</sub></i>}, we say {<i>A</i><sub>1</sub>, <i>A</i><sub>2</sub>, ..., <i>A<sub>n</sub></i>} is smaller than {<i>B</i><sub>1</sub>, <i>B</i><sub>2</sub>, ..., <i>B<sub>n</sub></i>} if and only if there exists such <i>i</i> ( 1 &le; <i>i</i> &le; <i>n</i>) so that we have <i>A<sub>i</sub></i> &lt; <i>B<sub>i and </sub>A<sub>j</sub></i> = <i>B<sub>j</sub></i> for each <i>j</i> &lt; <i>i</i>.</p></div></div><h3>Input</h3><div class="ptx" lang="en-US"><div><p>The first line contains <i>n. </i>(<i>n</i> ≤ 200000)</p><p>The following <i>n</i> lines contain the sequence.</p></div></div><h3>Output</h3><div class="ptx" lang="en-US"><p>output <i>n</i> lines which is the smallest possible sequence obtained.</p></div><h3>Sample Input</h3><pre class="sio">5
+10
+1
+2
+3
+4
+</pre><h3>Sample Output</h3><pre class="sio">1
+10
+2
+4
+3
+</pre><h3>Hint</h3><div class="ptx" lang="en-US">{10, 1, 2, 3, 4} -> {10, 1 | 2 | 3, 4} -> {1, 10, 2, 4, 3}</div><h3>Source</h3><div class="ptx" lang="en-US"><a>POJ Founder Monthly Contest – 2008.04.13</a>, Yao Jinyu</div></td></tr></table>

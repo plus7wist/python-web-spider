@@ -1,0 +1,13 @@
+<h2 align="center">根据关键字进行字符串拷贝</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 4920</td><td width="10px"></td><td><b>Accepted:</b> 1121</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">把源字符串拷贝到目的字符串，如果指定关键字，则以该关键字结束(不包括关键字本身)，如果拷贝失败，则得到空串。<br>具体要求：实现如下函数原型SafeStrcpy2KeyWord()，并在代码中调用该函数实现上述功能。该函数的实现要考虑各种可能的参数取值，以确保程序不出现崩溃。<br><pre><i><b><br>int SafeStrcpy2KeyWord(char* pDestBuffer,	//拷贝的目的地地址<br>		       char* pSourceString,	//拷贝的源地址<br>		       int nDestBufferSize,	//拷贝的目的地缓冲区长度<br>		       char* szKeyWord);	//指定关键字符串</b></i></pre><br>返回值：所拷贝的字符串长度。如果拷贝失败，则返回0。</div><h3>Input</h3><div class="ptx" lang="en-US">输入包含多组数据，以EOF结束<br>每组数据第一行为不含空格的源字符串，长度小于256；接下来的一行或多行都是关键字串（长度小于16），一直到END结束。“NULL”表示关键字串为空，此时输出的拷贝后的长度应为0，拷贝后的字符串为空串（也用”NULL”表示，见下文）。</div><h3>Output</h3><div class="ptx" lang="en-US">对于每组数据输出拷贝的长度和拷贝后的目的字符串，以空格分隔。如果该目的字符串为空，则用”NULL”表示。</div><h3>Sample Input</h3><pre class="sio">/home/tony/work_server/1/rtest/relayer.out
+/
+/t
+/1/r
+.
+NULL
+END</pre><h3>Sample Output</h3><pre class="sio">0 NULL
+5 /home
+22 /home/tony/work_server
+38 /home/tony/work_server/1/rtest/relayer
+0 NULL
+</pre><h3>Source</h3><div class="ptx" lang="en-US"><a></a></div></td></tr></table>

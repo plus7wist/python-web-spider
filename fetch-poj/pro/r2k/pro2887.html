@@ -1,0 +1,12 @@
+<h2 align="center">Big String</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 131072K</td></tr><tr><td><b>Total Submissions:</b> 6753</td><td width="10px"></td><td><b>Accepted:</b> 1612</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><p>You are given a string and supposed to do some string manipulations.</p></div><h3>Input</h3><div class="ptx" lang="en-US"><p>The first line of the input contains the initial string. You can assume that it is non-empty and its length does not exceed 1,000,000.</p><p>The second line contains the number of manipulation commands <i>N</i> (0 &lt; <i>N</i> <span lang="en-us">&le;</span> 2,000). The following <i>N</i> lines describe a command each. The commands are in one of the two formats below:</p><ol><li><tt>I ch p</tt>: Insert a character <i>ch</i> before the <i>p</i>-th character of the current string. If <i>p</i> is larger than the length of the string, the character is appended to the end of the string.</li><li><tt>Q p</tt>: Query the <i>p</i>-th character of the current string. The input ensures that the <i>p</i>-th character exists.</li></ol><p>All characters in the input are digits or lowercase letters of the English alphabet.</p></div><h3>Output</h3><div class="ptx" lang="en-US"><p>For each <i>Q</i> command output one line containing only the single character queried.</p></div><h3>Sample Input</h3><pre class="sio">ab
+7
+Q 1
+I c 2
+I d 4
+I e 2
+Q 5
+I f 1
+Q 3</pre><h3>Sample Output</h3><pre class="sio">a
+d
+e</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>POJ Monthly--2006.07.30</a>, zhucheng</div></td></tr></table>

@@ -1,0 +1,19 @@
+<h2 align="center">Divide et unita</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 5000MS</td><td width="10px"></td><td colspan="3"><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 403</td><td width="10px"></td><td><b>Accepted:</b> 142</td><td width="10px"></td><td style="font-weight:bold; color:red;">Special Judge</td></tr></table></div><h3>Description</h3><div class="ptx" lang="en-US">A polyomino is a two-dimensional figure formed from several squares with adjacent sides so that all the squares of polyomino can be visited by the rook moving each turn from one square belonging to the figure to its vertical or horizontal neighbour, also belonging to the figure. <br><br>On an infinite squared paper sheet N^2 squares are marked (2<=N<=5) that forms a polyomino P. You should write a program that divides this polyomino into two other polyominos, A and B, wherefrom using rotations and parallel translations (mirror reflection is not allowed), it is possible to assemble a square N*N. Only one of the possible solutions should be found.<br></div><h3>Input</h3><div class="ptx" lang="en-US">The input file will contain an image of a part of the sheet that contains the polyomino P, represented by the characters '.' (dot) denoting empty spaces and '*' (asterisk) denoting squares that belong to the figure (because it is impossible to put infinite squared sheet in a file, the input file describes only part of it; all the omitted squares are considered empty). There will be no other characters in the lines of the input file. The input file will not contain lines that are longer than 100 characters and there will be no more than 100 lines. There will be always at least one solution for the given input file. </div><h3>Output</h3><div class="ptx" lang="en-US">Echo the image of the given part of sheet with polyomino into the output file replacing each asterisk with characters 'A' or 'B' in accordance with which of polyominos (parts), A or B, this square belongs to. The output file should contain the same lines with the same order except for the above described changes. </div><h3>Sample Input</h3><pre class="sio">..
+......
+....*.
+..*.*
+..***
+..****
+..*..*
+..****
+.......</pre><h3>Sample Output</h3><pre class="sio">..
+......
+....B.
+..B.B
+..BBB
+..AABA
+..A..A
+..AAAA
+.......
+</pre><h3>Hint</h3><div class="ptx" lang="en-US">The input maybe as large as 100*100</div><h3>Source</h3><div class="ptx" lang="en-US"><a>Northeastern Europe 1997</a></div></td></tr></table>

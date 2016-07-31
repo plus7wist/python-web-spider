@@ -1,0 +1,49 @@
+<h2 align="center">Fractal</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 30000K</td></tr><tr><td><b>Total Submissions:</b> 8984</td><td width="10px"></td><td><b>Accepted:</b> 4237</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">A fractal is an object or quantity that displays self-similarity, in a somewhat technical sense, on all scales. The object need not exhibit exactly the same structure at all scales, but the same "type" of structures must appear on all scales.<br>A box fractal is defined as below :<br><ul><li>A box fractal of degree 1 is simply<br>X<br><li> A box fractal of degree 2 is<br>X X<br>X<br>X X<br><li>If using B(n - 1) to represent the box fractal of degree n - 1, then a box fractal of degree n is defined recursively as following<br><pre>B(n - 1)        B(n - 1)<br>        B(n - 1)<br>B(n - 1)        B(n - 1)</pre></ul><br>Your task is to draw a box fractal of degree n.</div><h3>Input</h3><div class="ptx" lang="en-US">The input consists of several test cases. Each line of the input contains a positive integer n which is no greater than 7. The last line of input is a negative integer −1 indicating the end of input.</div><h3>Output</h3><div class="ptx" lang="en-US">For each test case, output the box fractal using the 'X' notation. Please notice that 'X' is an uppercase letter. Print a line with only a single dash after each test case.</div><h3>Sample Input</h3><pre class="sio">1
+2
+3
+4
+-1</pre><h3>Sample Output</h3><pre class="sio">X
+-
+X X
+ X
+X X
+-
+X X   X X
+ X     X
+X X   X X
+   X X
+    X
+   X X
+X X   X X
+ X     X
+X X   X X
+-
+X X   X X         X X   X X
+ X     X           X     X
+X X   X X         X X   X X
+   X X               X X
+    X                 X
+   X X               X X
+X X   X X         X X   X X
+ X     X           X     X
+X X   X X         X X   X X
+         X X   X X
+          X     X
+         X X   X X
+            X X
+             X
+            X X
+         X X   X X
+          X     X
+         X X   X X
+X X   X X         X X   X X
+ X     X           X     X
+X X   X X         X X   X X
+   X X               X X
+    X                 X
+   X X               X X
+X X   X X         X X   X X
+ X     X           X     X
+X X   X X         X X   X X
+-</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Shanghai 2004 Preliminary</a></div></td></tr></table>

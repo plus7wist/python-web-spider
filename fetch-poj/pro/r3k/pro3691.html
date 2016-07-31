@@ -1,0 +1,18 @@
+<h2 align="center">DNA repair</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 2000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 6576</td><td width="10px"></td><td><b>Accepted:</b> 3058</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><div><p>Biologists finally invent techniques of repairing DNA that contains segments causing kinds of inherited diseases. For the sake of simplicity, a DNA is represented as a string containing characters 'A', 'G' , 'C' and 'T'. The repairing techniques are simply to change some characters to eliminate all segments causing diseases. For example, we can repair a DNA &quot;AAGCAG&quot; to &quot;AGGCAC&quot; to eliminate the initial causing disease segments &quot;AAG&quot;, &quot;AGC&quot; and &quot;CAG&quot; by changing two characters. Note that the repaired DNA can still contain only characters 'A', 'G', 'C' and 'T'.</p><p>You are to help the biologists to repair a DNA by changing least number of characters.</p></div></div><h3>Input</h3><div class="ptx" lang="en-US"><div>The input consists of multiple test cases. Each test case starts with a line containing one integers <i>N</i> (1 &le; <i>N</i> &le; 50), which is the number of DNA segments causing inherited diseases.<br>The following <i>N</i> lines gives <i>N</i> non-empty strings of length not greater than 20 containing only characters in &quot;AGCT&quot;, which are the DNA segments causing inherited disease.<br>The last line of the test case is a non-empty string of length not greater than 1000 containing only characters in &quot;AGCT&quot;, which is the DNA to be repaired.<p>The last test case is followed by a line containing one zeros.<br><br></div></div><h3>Output</h3><div class="ptx" lang="en-US"><div>For each test case, print a line containing the test case number( beginning with 1) followed by the<br>number of characters which need to be changed. If it's impossible to repair the given DNA, print -1.</p></div></div><h3>Sample Input</h3><pre class="sio">2
+AAA
+AAG
+AAAG    
+2
+A
+TG
+TGAATG
+4
+A
+G
+C
+T
+AGT
+0</pre><h3>Sample Output</h3><pre class="sio">Case 1: 1
+Case 2: 4
+Case 3: -1</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>2008 Asia Hefei Regional Contest Online by USTC</a></div></td></tr></table>

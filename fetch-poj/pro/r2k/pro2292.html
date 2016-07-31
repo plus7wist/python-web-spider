@@ -1,0 +1,14 @@
+<h2 align="center">Optimal Keypad</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 627</td><td width="10px"></td><td><b>Accepted:</b> 316</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">Optimus Mobiles produces mobile phones that support SMS messages. The Mobiles have a keypad of 12 keys, numbered 1 to 12. There is a character string assigned to each key. To type in the n-th character in the character string of a particular key, one should press the key n times. Optimus Mobiles wishes to solve the problem of assigning character strings to the keys such that for typing a random text out of a dictionary of common words, the average typing effort (i.e. the average number of keystrokes) is minimal. <br><center><img src=images/2292_1.jpg><br>Figure 1</center><br>To be more precise, consider a set of characters {a, b, c,..., z, +, *, /, ?} printed on a label tape as in Fig. 2. We want to cut the tape into 12 pieces each containing one or more characters. The 12 labels are numbered 1 to 12 from left to right and will be assigned to the keypad keys in that order. <br><center><img src=images/2292_2.jpg><br>Figure 2</center><br>You are to write a program to find the 11 cutting positions for a given dictionary of common words. The cutting positions should minimize the average number of keystrokes over all common words in the dictionary. Your output should be a string of 11 characters, where character i in this string is the first character of the (i+1)<sup>th</sup> label.</div><h3>Input</h3><div class="ptx" lang="en-US">The first line contains a single integer t (1 <= t <= 10), the number of test cases. Each test case starts with a line, containing an integer M (1 <= M <= 10000), the number of common words in the test case. In each M subsequent line, there is a common word. Each common word contains at most 30 characters from the alphabet {a, b, c,..., z, +, *, /, ?}.</div><h3>Output</h3><div class="ptx" lang="en-US">The output contains one line per test case containing an optimal cut string. Obviously, there may be more than a single optimal cut string, so print the optimal cut string which is the smallest one in lexicographic order.</div><h3>Sample Input</h3><pre class="sio">2
+2
+hi
+ok
+5
+hello
+bye
+how
+when
+who
+</pre><h3>Sample Output</h3><pre class="sio">bcdefghijko
+bcdefhlnowy
+</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Tehran 2003</a></div></td></tr></table>

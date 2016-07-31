@@ -1,0 +1,29 @@
+<h2 align="center">Frugal Search</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 1012</td><td width="10px"></td><td><b>Accepted:</b> 482</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><p>For this problem you will write a search engine that takes a query, searches a collection of words, and finds the lexicographically smallest word that matches the query (<i>i.e.</i>, the matching word that would appear first in an English dictionary). A <dfn>query</dfn> is a sequence of one or more terms separated by single vertical bars (&quot;|&quot;). A <dfn>term</dfn> is one or more letters followed by zero or more signed letters. A <dfn>signed</dfn> letter is either <tt>+</tt><var>s</var> (&quot;positive&quot; <var>s</var>) or <tt>-</tt><var>s</var> (&quot;negative&quot; <var>s</var>), where <var>s</var> is a single letter. All letters are lowercase, and no letter will appear more than once within a term. A query will not contain spaces. A term matches a word if the word contains at least one of the unsigned letters, all of the positive letters, and none of the negative letters; a query matches a word if at least one of its terms matches the word.</p></div><h3>Input</h3><div class="ptx" lang="en-US"><p>The input consists of one or more test cases followed by a line containing only &quot;#&quot; that signals the end of the input. Each test case consists of 1&ndash;100 words, each on a line by itself, followed by a line containing only &quot;*&quot; that marks the end of the word list, followed by one or more queries, each on a line by itself, followed by a line containing only &quot;**&quot; that marks the end of the test case. Each word will consist of 1&ndash;20 lowercase letters. All words within a test case will be unique. Each query will be as defined above and will be 1&ndash;79 characters long.</p></div><h3>Output</h3><div class="ptx" lang="en-US"><p>For each query, output a single line containing the lexicographically smallest word <em>within that test case</em> that matches the query, or the word <tt>NONE</tt> if there is no matching word. At the end of each test case, output a dollar sign on a line by itself.</p></div><h3>Sample Input</h3><pre class="sio">elk
+cow
+bat
+*
+ea
+acm+e
+nm+o|jk+l
+**
+debian
+slackware
+gentoo
+ubuntu
+suse
+fedora
+mepis
+*
+yts
+cab-e+n
+r-e|zjq|i+t|vs-p+e-u-c
+**
+#</pre><h3>Sample Output</h3><pre class="sio">bat
+NONE
+elk
+$
+gentoo
+ubuntu
+NONE
+$</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Mid-Central USA 2006</a></div></td></tr></table>

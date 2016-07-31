@@ -1,0 +1,19 @@
+<h2 align="center">Advanced ASCII Cubes</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 684</td><td width="10px"></td><td><b>Accepted:</b> 347</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">The table surface is divided into N by M square cells. Some cubes are stacked one upon another over the cells, forming towers. For each cell the number of cubes stacked over it is given in the matrix A.<br><br>Your program must output the view of the table in ASCII graphics, where each cube is represented as shown below:<br><pre>  +---+<br> /   /|      <br>+---+ |      <br>|   | + <br>|   |/ <br>+---+</pre><br> (here the characters used are '+', '-', '/', '|', their ASCII codes are ASCII 43, 45, 47, 124) <br><br><br>The dot (ASCII 46) must be used as a background. <br><br><b>Constraints </b><br>1 ≤ N, M, Aij ≤ 50 </div><h3>Input</h3><div class="ptx" lang="en-US">Input contains integers N M, followed by matrix A, row-by-row. The first row describes the cube tower furthest from the viewer, left to right, and the last row -- nearest to the viewer. </div><h3>Output</h3><div class="ptx" lang="en-US">Output must contain a string representation of the table view, with minimal number of lines required to show all cubes. Each line must contain a string of equal length, which is the minimal width required to show all cubes. </div><h3>Sample Input</h3><pre class="sio">3 5
+2 2 1 2 2
+2 2 1 1 2
+3 2 1 2 2
+</pre><h3>Sample Output</h3><pre class="sio">......+---+---+...+---+---+
+..+---+  /   /|../   /   /|
+./   /|-+---+ |.+---+---+ |
++---+ |/   /| +-|  /   /| +
+|   | +---+ |/+---+---+ |/|
+|   |/   /| +/   /   /| + |
++---+---+ |/+---+---+ |/| +
+|   |   | +-|   |   | + |/.
+|   |   |/  |   |   |/| +..
++---+---+---+---+---+ |/...
+|   |   |   |   |   | +....
+|   |   |   |   |   |/.....
++---+---+---+---+---+......
+</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Northeastern Europe 2003</a>, Far-Eastern Subregion</div></td></tr></table>

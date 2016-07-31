@@ -1,0 +1,13 @@
+<h2 align="center">Painter</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 4493</td><td width="10px"></td><td><b>Accepted:</b> 2622</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">The local toy store sells small fingerpainting kits with between three and twelve 50ml bottles of paint, each a different color. The paints are bright and fun to work with, and have the useful property that if you mix X ml each of any three different colors, you get X ml of gray. (The paints are thick and "airy", almost like cake frosting, and when you mix them together the volume doesn't increase, the paint just gets more dense.) None of the individual colors are gray; the only way to get gray is by mixing exactly three distinct colors, but it doesn't matter which three. Your friend Emily is an elementary school teacher and every Friday she does a fingerpainting project with her class. Given the number of different colors needed, the amount of each color, and the amount of gray, your job is to calculate the number of kits needed for her class.</div><h3>Input</h3><div class="ptx" lang="en-US">The input consists of one or more test cases, followed by a line containing only zero that signals the end of the input. Each test case consists of a single line of five or more integers, which are separated by a space. The first integer N is the number of different colors (3 <= N <= 12). Following that are N different nonnegative integers, each at most 1,000, that specify the amount of each color needed. Last is a nonnegative integer G <= 1,000 that specifies the amount of gray needed. All quantities are in ml.<br></div><h3>Output</h3><div class="ptx" lang="en-US">For each test case, output the smallest number of fingerpainting kits sufficient to provide the required amounts of all the colors and gray. Note that all grays are considered equal, so in order to find the minimum number of kits for a test case you may need to make grays using different combinations of three distinct colors.</div><h3>Sample Input</h3><pre class="sio">3 40 95 21 0
+7 25 60 400 250 0 60 0 500
+4 90 95 75 95 10
+4 90 95 75 95 11
+5 0 0 0 0 0 333
+0
+</pre><h3>Sample Output</h3><pre class="sio">2
+8
+2
+3
+4
+</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Mid-Central USA 2005</a></div></td></tr></table>

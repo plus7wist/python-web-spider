@@ -1,0 +1,9 @@
+<h2 align="center">Duplicate Removal</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 1800</td><td width="10px"></td><td><b>Accepted:</b> 1258</td></table></div><h3>Description</h3><div class="ptx" lang="en-US">The company Al's Chocolate Mangos has a web site where visitors can guess how many chocolate covered mangos are in a virtual jar. Visitors type in a guess between 1 and 99 and then click on a "Submit" button. Unfortunately, the response time from the server is often long, and visitors get impatient and click "Submit" several times in a row. This generates many duplicate requests.<br>Your task is to write a program to assist the staff at ACM in filtering out these duplicate requests.</div><h3>Input</h3><div class="ptx" lang="en-US">The input consists of a series of lines, one for each web session. The first integer on a line is N, 0 < N ≤ 25, which is the number of guesses on this line. These guesses are all between 1 and 99, inclusive. The value N = 0 indicates the end of all the input.</div><h3>Output</h3><div class="ptx" lang="en-US">For each input data set, output a single line with the guesses in the original order, but with consecutive duplicates removed. Conclude each output line with the dollar sign character '$'. Note that there is a single space between the last integer and the dollar sign.</div><h3>Sample Input</h3><pre class="sio">5 1 22 22 22 3
+4 98 76 20 76
+6 19 19 35 86 86 86
+1 7
+0</pre><h3>Sample Output</h3><pre class="sio">1 22 3 $
+98 76 20 76 $
+19 35 86 $
+7 $</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Mid-Central USA 2009</a></div></td></tr></table>

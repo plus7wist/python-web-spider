@@ -1,0 +1,17 @@
+<h2 align="center">Formatting function</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 2000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 2321</td><td width="10px"></td><td><b>Accepted:</b> 325</td></table></div><h3>Description</h3><div class="ptx" lang="en-US"><p>Text formatting functions (Format, sprintf, etc) are very common between programming languages. Your task is to implement a simplified one.</p><p>Formatting function receives format string and several arguments. Argument values are processed one by one and inserted into format string at positions designated by format specifiers. The following format specifiers must be implemented:</p><p>* %s — argument as a string<br>* %d — argument as an integer value, without any leading zeroes<br>* %% — literal '%' character </p><p>Formatting error is generated if:</p><p>* number of arguments required by format specifiers is not equal to the number of actually supplied arguments,<br>* argument for %d specifier contains non-digit character.<br>* '%' character in format string is not followed by either '%', 's' or 'd'. </p></div><h3>Input</h3><div class="ptx" lang="en-US"><p>Input file contains format string followed by arguments, one per line.</p><h4>Constraints</h4><p>Number of arguments is not greater than 1000, length of each line is not greater than 50000 characters. </p></div><h3>Output</h3><div class="ptx" lang="en-US"><p>Output file must contain a single string — either formatted text or ERROR in case of any formatting error.</p></div><h3>Sample Input</h3><pre class="sio"><b>Sample Input 1</b>
+%d x %d %s %d
+2
+02
+=
+4
+<b>Sample Input 2</b>
+%s
+<b>Sample Input 3</b>
+%d
+2a</pre><h3>Sample Output</h3><pre class="sio"><b>Sample Output 1</b>
+2 x 2 = 4
+<b>Sample Output 2</b>
+ERROR
+<b>Sample Output 3</b>
+ERROR</pre><h3>Hint</h3><div class="ptx" lang="en-US"><p>Bold texts appearing in the sample sections are informative and do not form part of the actual data.</p></div><h3>Source</h3><div class="ptx" lang="en-US"><a>Northeastern Europe 2006</a>, Far-Eastern Subregion</div></td></tr></table>

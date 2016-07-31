@@ -1,0 +1,13 @@
+<h2 align="center">Addition Chains</h2></div>
+<div class="plm"><table align="center"><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td colspan="3"><b>Memory Limit:</b> 65536K</td></tr><tr><td><b>Total Submissions:</b> 5061</td><td width="10px"></td><td><b>Accepted:</b> 2739</td><td width="10px"></td><td style="font-weight:bold; color:red;">Special Judge</td></tr></table></div><h3>Description</h3><div class="ptx" lang="en-US">An addition chain for n is an integer sequence <a0, a1,a2,...,am> with the following four properties: <br><ul><li>a0 = 1 <br><li>am = n <br><li>a0 < a1 < a2 < ... < a<sub>m-1</sub> < am <br><li>For each k (1<=k<=m) there exist two (not necessarily different) integers i and j (0<=i, j<=k-1) with ak=ai+aj </ul><br>You are given an integer n. Your job is to construct an addition chain for n with minimal length. If there is more than one such sequence, any one is acceptable.<br>For example, <1,2,3,5> and <1,2,4,5> are both valid solutions when you are asked for an addition chain for 5. </div><h3>Input</h3><div class="ptx" lang="en-US">The input will contain one or more test cases. Each test case consists of one line containing one integer n (1<=n<=100). Input is terminated by a value of zero (0) for n. </div><h3>Output</h3><div class="ptx" lang="en-US">For each test case, print one line containing the required integer sequence. Separate the numbers by one blank. <br>Hint: The problem is a little time-critical, so use proper break conditions where necessary to reduce the search space.<br></div><h3>Sample Input</h3><pre class="sio">5
+7
+12
+15
+77
+0
+</pre><h3>Sample Output</h3><pre class="sio">1 2 4 5
+1 2 4 6 7
+1 2 4 8 12
+1 2 4 5 10 15
+1 2 4 8 9 17 34 68 77
+</pre><h3>Source</h3><div class="ptx" lang="en-US"><a>Ulm Local 1997</a></div></td></tr></table>
